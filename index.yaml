@@ -3,14 +3,14 @@ entries:
   matrix:
   - apiVersion: v2
     appVersion: 1.14.0
-    created: "2020-06-07T13:35:27.271693325-07:00"
+    created: "2020-06-07T13:43:20.71769223-07:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
       repository: https://kubernetes-charts.storage.googleapis.com
       version: 8.0.0
     description: A Helm chart to deploy a Matrix homeserver stack into Kubernetes
-    digest: 3beac9cd4f8f555cefed9516085524626b0af332505b65120d57b2d359793405
+    digest: 92f7e4a15e1daf64b8752276dde8ffa91927c9f43fc6410d17776c746813b4ff
     home: https://github.com/dacruz21/matrix-chart
     icon: https://dacruz21.github.io/helm-charts/icons/matrix.svg
     maintainers:
@@ -26,7 +26,7 @@ entries:
     version: 1.4.3-dev
   - apiVersion: v2
     appVersion: 1.14.0
-    created: "2020-06-07T13:35:27.2645298-07:00"
+    created: "2020-06-07T13:43:20.705199954-07:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -49,7 +49,7 @@ entries:
     version: 1.4.2
   - apiVersion: v2
     appVersion: 1.14.0
-    created: "2020-06-07T13:35:27.254380239-07:00"
+    created: "2020-06-07T13:43:20.695383528-07:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -70,4 +70,4 @@ entries:
     urls:
     - https://routhinator.github.io/helm-chart-tests/matrix-1.4.0.tgz
     version: 1.4.0
-generated: "2020-06-07T13:35:27.247004717-07:00"
+generated: "2020-06-07T13:43:20.688031218-07:00"
