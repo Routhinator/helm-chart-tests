@@ -3,7 +3,7 @@ entries:
   matrix:
   - apiVersion: v2
     appVersion: 1.19.0
-    created: "2020-08-29T12:11:56.335486409-07:00"
+    created: "2020-08-29T12:15:20.539206528-07:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -26,7 +26,7 @@ entries:
     version: 2.6.1
   - apiVersion: v2
     appVersion: 1.19.0
-    created: "2020-08-29T12:11:56.33192563-07:00"
+    created: "2020-08-29T12:15:20.535590331-07:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -49,7 +49,7 @@ entries:
     version: 2.6.0
   - apiVersion: v2
     appVersion: 1.14.0
-    created: "2020-08-29T12:11:56.328872414-07:00"
+    created: "2020-08-29T12:15:20.532454817-07:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -72,7 +72,7 @@ entries:
     version: 1.4.3-dev
   - apiVersion: v2
     appVersion: 1.14.0
-    created: "2020-08-29T12:11:56.325012219-07:00"
+    created: "2020-08-29T12:15:20.528565555-07:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -95,7 +95,7 @@ entries:
     version: 1.4.2
   - apiVersion: v2
     appVersion: 1.14.0
-    created: "2020-08-29T12:11:56.322037871-07:00"
+    created: "2020-08-29T12:15:20.525573937-07:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -116,4 +116,4 @@ entries:
     urls:
     - matrix-1.4.0.tgz
     version: 1.4.0
-generated: "2020-08-29T12:11:56.318644601-07:00"
+generated: "2020-08-29T12:15:20.521840988-07:00"
