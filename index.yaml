@@ -3,7 +3,30 @@ entries:
   matrix:
   - apiVersion: v2
     appVersion: 1.19.0
-    created: "2020-08-29T12:27:26.677063869-07:00"
+    created: "2020-08-29T12:46:19.848707274-07:00"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://kubernetes-charts.storage.googleapis.com
+      version: 8.0.0
+    description: A Helm chart to deploy a Matrix homeserver stack into Kubernetes
+    digest: 060769d9b8c1ed99c4e6de7b97253241c679e6e2a95aff976db2433f552b613a
+    home: https://github.com/dacruz21/matrix-chart
+    icon: https://dacruz21.github.io/helm-charts/icons/matrix.svg
+    maintainers:
+    - email: david@typokign.com
+      name: David Cruz
+      url: https://github.com/dacruz21/
+    name: matrix
+    sources:
+    - https://github.com/dacruz21/matrix-chart
+    type: application
+    urls:
+    - matrix-2.6.3.tgz
+    version: 2.6.3
+  - apiVersion: v2
+    appVersion: 1.19.0
+    created: "2020-08-29T12:46:19.845383973-07:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -26,7 +49,7 @@ entries:
     version: 2.6.2
   - apiVersion: v2
     appVersion: 1.19.0
-    created: "2020-08-29T12:27:26.673030172-07:00"
+    created: "2020-08-29T12:46:19.841212671-07:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -49,7 +72,7 @@ entries:
     version: 2.6.1
   - apiVersion: v2
     appVersion: 1.19.0
-    created: "2020-08-29T12:27:26.669985602-07:00"
+    created: "2020-08-29T12:46:19.837889471-07:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -72,7 +95,7 @@ entries:
     version: 2.6.0
   - apiVersion: v2
     appVersion: 1.14.0
-    created: "2020-08-29T12:27:26.666906065-07:00"
+    created: "2020-08-29T12:46:19.834619514-07:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -95,7 +118,7 @@ entries:
     version: 1.4.3-dev
   - apiVersion: v2
     appVersion: 1.14.0
-    created: "2020-08-29T12:27:26.663388427-07:00"
+    created: "2020-08-29T12:46:19.830596995-07:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -118,7 +141,7 @@ entries:
     version: 1.4.2
   - apiVersion: v2
     appVersion: 1.14.0
-    created: "2020-08-29T12:27:26.659875601-07:00"
+    created: "2020-08-29T12:46:19.827564248-07:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -139,4 +162,4 @@ entries:
     urls:
     - matrix-1.4.0.tgz
     version: 1.4.0
-generated: "2020-08-29T12:27:26.656915212-07:00"
+generated: "2020-08-29T12:46:19.82394586-07:00"
