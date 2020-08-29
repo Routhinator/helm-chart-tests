@@ -3,7 +3,30 @@ entries:
   matrix:
   - apiVersion: v2
     appVersion: 1.19.0
-    created: "2020-08-29T11:52:19.910163729-07:00"
+    created: "2020-08-29T12:11:56.335486409-07:00"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://kubernetes-charts.storage.googleapis.com
+      version: 8.0.0
+    description: A Helm chart to deploy a Matrix homeserver stack into Kubernetes
+    digest: 1bba19e2571b821547f1cb6b958b1ca028cdcd83bc9b627d6c627c8a49711a19
+    home: https://github.com/dacruz21/matrix-chart
+    icon: https://dacruz21.github.io/helm-charts/icons/matrix.svg
+    maintainers:
+    - email: david@typokign.com
+      name: David Cruz
+      url: https://github.com/dacruz21/
+    name: matrix
+    sources:
+    - https://github.com/dacruz21/matrix-chart
+    type: application
+    urls:
+    - matrix-2.6.1.tgz
+    version: 2.6.1
+  - apiVersion: v2
+    appVersion: 1.19.0
+    created: "2020-08-29T12:11:56.33192563-07:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -26,7 +49,7 @@ entries:
     version: 2.6.0
   - apiVersion: v2
     appVersion: 1.14.0
-    created: "2020-08-29T11:52:19.907024123-07:00"
+    created: "2020-08-29T12:11:56.328872414-07:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -49,7 +72,7 @@ entries:
     version: 1.4.3-dev
   - apiVersion: v2
     appVersion: 1.14.0
-    created: "2020-08-29T11:52:19.903205505-07:00"
+    created: "2020-08-29T12:11:56.325012219-07:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -72,7 +95,7 @@ entries:
     version: 1.4.2
   - apiVersion: v2
     appVersion: 1.14.0
-    created: "2020-08-29T11:52:19.90023631-07:00"
+    created: "2020-08-29T12:11:56.322037871-07:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -93,4 +116,4 @@ entries:
     urls:
     - matrix-1.4.0.tgz
     version: 1.4.0
-generated: "2020-08-29T11:52:19.896630577-07:00"
+generated: "2020-08-29T12:11:56.318644601-07:00"
